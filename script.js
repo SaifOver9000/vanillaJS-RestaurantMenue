@@ -94,7 +94,9 @@ window.addEventListener('DOMContentLoaded', function(){
         </div>
     </article> `;
     });
+
     displayMenue = displayMenue.join("");
     sectionCenter.innerHTML = displayMenue;
     console.log(displayMenue);
+    
 } );
